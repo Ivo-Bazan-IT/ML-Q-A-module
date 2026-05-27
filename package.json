@@ -1,0 +1,44 @@
+{
+  "name": "ml-qna-module",
+  "version": "1.0.0",
+  "description": "Mercado Libre Q&A Module with OAuth Integration",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "lint": "eslint src",
+    "format": "prettier --write src"
+  },
+  "keywords": [
+    "mercado-libre",
+    "oauth",
+    "qna",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "axios": "^1.6.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.40.0",
+    "prettier": "^3.0.0",
+    "tsx": "^3.0.0",
+    "typescript": "^5.9.3"
+  }
+}
